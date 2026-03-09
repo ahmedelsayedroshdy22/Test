@@ -26,7 +26,7 @@ def Welcome_Home():
 
 @app.post("/admin")
 def admin_home(name: str):
-    if name == "Ahmed":
+    if name == "Ahmedd":
         return True
     else:
         return False
